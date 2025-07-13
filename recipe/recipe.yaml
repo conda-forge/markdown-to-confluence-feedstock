@@ -3,7 +3,7 @@ schema_version: 1
 
 context:
   name: markdown-to-confluence
-  version: "0.4.1"
+  version: "0.4.2"
 
 package:
   name: ${{ name|lower }}
@@ -11,7 +11,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/markdown_to_confluence-${{ version }}.tar.gz
-  sha256: a9b38ba8716f1947765efea9e1b0dd1a9576d67461ff07b441343ee74d034880
+  sha256: 8283b5ed958859c7f95c899df4e40e31548a7f924e958b4f6d549c1bf6900ce4
 
 build:
   number: 0
